@@ -1,0 +1,9 @@
+Dokumentointi osa 1/Tehtävämäärittely
+
+Aihe: Toistoharjoittelu
+Ohjelmalla voi harjoitella alkuaineiden lyhenteitä. Ohjelma näyttää aineen
+nimen, ja käyttäjä kirjoittaa sen lyhenteen. Ohjelmaan luodaan käyttäjätunnus
+ja kirjaudutaan, jolloin omalla tunnuksella voi katsella tilastoja siitä,
+kuinka paljon jo on osannut. Ohjelma voisi myös muistaa, mitä on osattu
+ja mitä ei ja kysellä useammin väärinmenneitä sekä harvemmin jo oikein
+menneitä. 
