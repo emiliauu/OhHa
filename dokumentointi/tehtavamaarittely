@@ -1,4 +1,4 @@
-Dokumentointi osa 1/Tehtävämäärittely
+﻿Dokumentointi osa 1/Tehtävämäärittely
 
 Aihe: Toistoharjoittelu
 Ohjelmalla voi harjoitella alkuaineiden lyhenteitä. Ohjelma näyttää aineen
@@ -7,3 +7,36 @@ ja kirjaudutaan, jolloin omalla tunnuksella voi katsella tilastoja siitä,
 kuinka paljon jo on osannut. Ohjelma voisi myös muistaa, mitä on osattu
 ja mitä ei ja kysellä useammin väärinmenneitä sekä harvemmin jo oikein
 menneitä. 
+
+6.11.2010
+
+Ohjelman nimeksi muodostui ChemistryTester - mieletön tapa oppia kemiaa! Tällä (ei erityisen) uudella ja
+innovatiivisella ohjelmalla aloitteleva kemisti voi treenata muistiaan alkuaineiden merkkien kanssa. 
+
+Käyttäjiä:
+Opiskelija
+
+Käyttötapauksia:
+1. Kirjautuminen
+- Ohjelma kysyy käyttäjätunnusta ja salasanaa. Oma tunnus luodaan ensimmäisellä kirjautumiskerralla. Tunnukset
+tallentuvat johonkin, mistä tarkistetaan sisäänkirjautuessa, onko salasana oikea. Ajattelin jotain rakennetta,
+missä tunnus on avain ja salasana arvo. 
+
+2. Halutun toiminnon valitseminen
+- Sisäänkirjautumisen jälkeen esille tulee, valikko, josta voi 1) Kirjautua ulos 2) Aloittaa harjoittelun
+3) Katsella tilastojaan.
+
+3. Harjoittelu
+- Ohjelma kysyy, esim. "Hiili?". Jos vastaus equals "C", -> ohjelma printtaa "Hyvä, vastasit oikein!" ja muussa
+tapauksessa "Väärä vastaus!".
+- Nimi-merkki -parit on tallennettu johonkin tietorakenteeseen -> samanlaiseen kuin salasanatkin. Käyttäjän
+syötettyä vastauksen tutkitaan, onko kysytyn arvo oikea. 
+- Ohjelma pitää kirjaa, paljonko on vastattu oikein ja väärin.
+- Joka viides kerta ohjelma kysyy jo osatun aineen, muuten kysytään uusia/väärin vastattuja. 
+
+4. Omien tilastojen katsominen
+- Opiskelija näkee tekstin "n väärää - n oikeaa - n % osattu - x mennyt heti oikein - x n kertaa väärin - jotain"
+
+5. Tilastojen nollaaminen
+- Joskus voi olla tarpeen päästä vanhoista tiedoista eroon, joten opiskelijalla on mahdollisuus nollata laskuri
+ja aloittaa toistoharjoittelu alusta. 

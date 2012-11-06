@@ -4,10 +4,15 @@
  */
 package chemistrytester;
 
-/**
- *
- * @author emilia
- */
+
 public class Kirjautuminen {
+    //Tähän toteutetaan kirjautuminen, ja jossakin on joku tietorakenne joka sisältää
+    //nimet ja salaSanat
+    //private Map kayttajat;
+    
+    public Kirjautuminen (String kayttaja, String salasana){
+        
+        
+}
     
 }
