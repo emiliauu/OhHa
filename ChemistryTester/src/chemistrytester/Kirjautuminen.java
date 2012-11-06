@@ -10,9 +10,19 @@ public class Kirjautuminen {
     //nimet ja salaSanat
     //private Map kayttajat;
     
-    public Kirjautuminen (String kayttaja, String salasana){
-        
+    public String luoUusi (String nimi, String salaSana){
+        KayttajaTunnus tunnus = new KayttajaTunnus(nimi, salaSana);
+        //tallenna tunnus 
+        return "Tunnuksesi luotiin.";
         
 }
+    public String tarkistaSalasana (String nimi, String salaSana) {
+        //etsitään nimelle kuuluva sanasana
+        String nimensalasana = "";
+        if (nimensalasana.equals(salaSana)) {
+            return "Kirjaudutaan sisään";
+        }
+            return "Väärä tunnus tai salasana.";
+    }
     
 }

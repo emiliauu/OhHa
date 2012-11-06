@@ -16,5 +16,9 @@ public class KayttajaTunnus {
         this.nimi = nimi;
         this.salaSana = salaSana;
 }
+    public boolean tarkistaSalasana (String nimi) {
+        // kaivetaan esille tunnuksen salas ja verrataan
+        return true;
+    }
     
 }
